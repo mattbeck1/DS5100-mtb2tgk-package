@@ -1,3 +1,5 @@
+import time
+
 def celebrate():
     """Celebrate UVA's win"""
     loop_iter = int(input("Enter a number: "))
@@ -5,4 +7,5 @@ def celebrate():
         print("Thats too low of a number")
         loop_iter = 100
     for _ in range(loop_iter):
+        time.sleep(1)
         print('Wahoowa!!')
